@@ -17,6 +17,7 @@ public class Base {
 	public static WebDriver driver;
 	public static Properties prop;
 	
+	public static String data[]= {"Dashboard","Customers","Trucks","Tags","Products","Yards","Users","Reports"};
 	
 	public Properties Prop() throws IOException
 		{

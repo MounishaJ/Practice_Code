@@ -1,4 +1,5 @@
 package code_practice;
+import java.util.List;
 import java.util.Properties;
 
 
@@ -37,6 +38,8 @@ public class Page {
 	@FindBy(xpath="//span[contains(text(),'Users')]")
 	WebElement usertab;
 	
+	@FindBy(xpath="//ul[@class='links']/li")
+	List<WebElement> alltabs;
 
 	public WebElement customer_Tab()
 	{
@@ -76,6 +79,11 @@ public class Page {
 	{
 		return searchingword;
 	}
+	public List<WebElement> Tabs()
+	{
+		return alltabs;
+	}
+	
 	
 	
 	
