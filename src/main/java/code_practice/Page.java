@@ -41,6 +41,11 @@ public class Page {
 	@FindBy(xpath="//ul[@class='links']/li")
 	List<WebElement> alltabs;
 
+	@FindBy(xpath="//td[@class='dataTables_empty']")
+	WebElement errormsg;
+	
+	
+	
 	public WebElement customer_Tab()
 	{
 		
@@ -84,8 +89,50 @@ public class Page {
 		return alltabs;
 	}
 	
+	public WebElement alertmessage()
+	{
+		return errormsg;
+	}
 	
 	
+	
+	
+
+	@FindBy(xpath="//tr/td")
+	List<WebElement> rowdata;
+	public List<WebElement>  data()
+	{
+		return rowdata;
+	}
+	
+	@FindBy(xpath="//tbody/tr[@role='row']")
+	List<WebElement> allrows;
+	public List<WebElement> listallrows()
+	{
+		return allrows;
+	}
+	
+
+	@FindBy(xpath="//div[@id='customer_list_paginate']")
+	WebElement scrolldown;
+	public WebElement scrollingdown()
+	{
+		return scrolldown;
+	}
+	@FindBy(xpath="//div[@class='main_header clearfix']")
+	WebElement scrollup;
+	public WebElement scrollingup()
+	{
+		return scrollup;
+	}
+	
+	
+	@FindBy(xpath="//span[@class='paginate_button next icon-right-arrow x_small']")
+	WebElement nextpage;
+	public WebElement pagearrow()
+	{
+		return nextpage;
+	}
 	
 	
 	

@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -56,5 +58,26 @@ public class Base {
 		return driver;
 	}
 
+	/*public static void scroll(WebElement element) {
+		JavascriptExecutor je = (JavascriptExecutor) driver;
+		
+		
+		 // now execute query which actually will scroll until that element is not appeared on page.
+		 je.executeScript("arguments[0].scrollIntoView(true);",element);
+	
+	}
+*/
+	public static void scrolldown()
+	{
+	JavascriptExecutor jse = (JavascriptExecutor)driver;
+	jse.executeScript("window.scrollBy(0,250)", "");
 
+	}
+	
+	public static void scrollup()
+	{
+		
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("window.scrollBy(0,-250)", "");
+	}
 }

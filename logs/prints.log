@@ -1,88 +1,21 @@
-2019-06-27 16:12:49,603 [code_practice.Search_1.initialize] - Driver initialized successfully
-2019-06-27 16:12:55,067 [code_practice.Search_1.initialize] - successfully launched URL
-2019-06-27 16:12:56,939 [code_practice.Search_1.initialize] - sucessfully logged into the application
-2019-06-27 16:13:10,067 [code_practice.Search_1.common_Search] - Bay Area Concretesuccessfully validate search functionality
-2019-06-27 16:13:15,204 [code_practice.Search_1.common_Search] - Bay Area Concretesuccessfully validate search functionality
-2019-06-27 16:13:21,793 [code_practice.Search_1.common_Search] - Bay Area Concretesuccessfully validate search functionality
-2019-06-27 16:13:27,029 [code_practice.Search_1.common_Search] - Bay Area Concretesuccessfully validate search functionality
-2019-06-27 16:13:32,919 [code_practice.Search_1.common_Search] - Bay Area Concretesuccessfully validate search functionality
-2019-06-27 16:37:15,094 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-27 16:37:21,285 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-27 16:37:23,223 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-27 17:01:02,442 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-27 17:01:08,481 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-27 17:01:10,278 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-27 17:09:26,535 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-27 17:09:32,237 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-27 17:09:34,039 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-27 17:11:15,200 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-27 17:11:23,849 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-27 17:11:25,774 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-27 18:12:44,396 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-27 18:12:50,457 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-27 18:12:56,910 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 10:19:01,393 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 10:19:25,137 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 10:19:33,173 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 10:24:49,211 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 10:24:54,594 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 10:24:56,535 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 10:28:34,139 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 10:28:41,598 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 10:28:43,483 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 10:29:36,123 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 10:29:43,235 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 10:29:45,173 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 10:31:26,865 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 10:31:34,400 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 10:31:36,508 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 10:49:11,502 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 10:49:16,856 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 10:49:20,994 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 10:57:17,410 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 10:57:23,329 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 10:57:25,104 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 10:58:17,884 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 10:58:23,949 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 10:58:25,782 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 11:01:14,371 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 11:01:19,268 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 11:01:21,051 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 11:12:51,896 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 11:13:01,013 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 11:13:03,161 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 11:15:48,040 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 11:16:18,904 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 11:16:36,216 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 11:16:41,668 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 11:16:43,555 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 11:17:23,823 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 11:17:29,724 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 11:17:31,563 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 11:23:06,005 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 11:23:11,950 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 11:23:13,784 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 14:53:35,343 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 14:53:40,994 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 14:53:43,485 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 14:54:51,305 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 14:54:57,765 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 14:54:59,662 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 15:03:41,534 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 15:03:47,315 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 15:03:49,161 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 15:09:18,410 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 15:09:24,937 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 15:09:26,774 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 15:20:38,880 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 15:20:46,478 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 15:20:48,214 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 15:22:49,951 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 15:22:56,015 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 15:22:57,902 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 15:25:31,889 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 15:25:37,039 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 15:25:38,935 [code_practice.Search_2.initialize] - sucessfully logged into the application
-2019-06-28 16:39:59,893 [code_practice.Search_2.initialize] - Driver initialized successfully
-2019-06-28 16:40:22,044 [code_practice.Search_2.initialize] - successfully launched URL
-2019-06-28 16:40:30,593 [code_practice.Search_2.initialize] - sucessfully logged into the application
+2019-07-02 18:29:01,935 [code_practice.Sorting.initialize] - Driver initialized successfully
+2019-07-02 18:29:07,336 [code_practice.Sorting.initialize] - successfully launched URL
+2019-07-02 18:29:09,890 [code_practice.Sorting.initialize] - sucessfully logged into the application
+2019-07-02 18:31:42,336 [code_practice.Sorting.initialize] - Driver initialized successfully
+2019-07-02 18:31:49,546 [code_practice.Sorting.initialize] - successfully launched URL
+2019-07-02 18:31:51,663 [code_practice.Sorting.initialize] - sucessfully logged into the application
+2019-07-02 18:34:45,264 [code_practice.Sorting.initialize] - Driver initialized successfully
+2019-07-02 18:34:59,439 [code_practice.Sorting.initialize] - successfully launched URL
+2019-07-02 18:35:01,259 [code_practice.Sorting.initialize] - sucessfully logged into the application
+2019-07-02 18:36:14,664 [code_practice.Sorting.initialize] - Driver initialized successfully
+2019-07-02 18:36:20,767 [code_practice.Sorting.initialize] - successfully launched URL
+2019-07-02 18:36:22,690 [code_practice.Sorting.initialize] - sucessfully logged into the application
+2019-07-02 18:37:25,519 [code_practice.Sorting.initialize] - Driver initialized successfully
+2019-07-02 18:37:33,357 [code_practice.Sorting.initialize] - successfully launched URL
+2019-07-02 18:37:35,245 [code_practice.Sorting.initialize] - sucessfully logged into the application
+2019-07-02 18:39:12,055 [code_practice.Sorting.initialize] - Driver initialized successfully
+2019-07-02 18:39:18,925 [code_practice.Sorting.initialize] - successfully launched URL
+2019-07-02 18:39:20,794 [code_practice.Sorting.initialize] - sucessfully logged into the application
+2019-07-02 18:41:24,830 [code_practice.Sorting.initialize] - Driver initialized successfully
+2019-07-02 18:41:30,515 [code_practice.Sorting.initialize] - successfully launched URL
+2019-07-02 18:41:32,498 [code_practice.Sorting.initialize] - sucessfully logged into the application

@@ -59,10 +59,13 @@ public class Search_2 extends Base{
 					titleverify1(i);
 		 
 				 Page p=new Page(driver);	
-				 p.search().sendKeys(p.Searchedword().getText(),Keys.ENTER);	
+				 p.search().sendKeys("122222222222",Keys.ENTER);	
+					
+				// p.search().sendKeys(p.Searchedword().getText(),Keys.ENTER);	
 						 
-				 Assert.assertEquals(p.Searchedword().getText() ,p.search().getAttribute("value"));
-					System.out.println(p.search().getAttribute("value"));
+				 Assert.assertEquals(p.Searchedword().getText() ,p.search().getAttribute("value"),p.alertmessage().getText());
+					System.out.println(p.alertmessage().getText());
+					
 			}
 			
 	}
