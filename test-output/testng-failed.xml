@@ -6,7 +6,7 @@
       <class name="code_practice.Sorting">
         <methods>
           <include name="initialize"/>
-          <include name="l1"/>
+          <include name="pagecount"/>
         </methods>
       </class> <!-- code_practice.Sorting -->
     </classes>

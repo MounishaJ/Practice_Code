@@ -70,14 +70,15 @@ public class Base {
 	public static void scrolldown()
 	{
 	JavascriptExecutor jse = (JavascriptExecutor)driver;
-	jse.executeScript("window.scrollBy(0,250)", "");
+	jse.executeScript("window.scrollBy(0,350)", "");
 
 	}
 	
 	public static void scrollup()
 	{
-		
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
-		jse.executeScript("window.scrollBy(0,-250)", "");
+		//jse.executeScript("arguments[0].scrollIntoView(true);",element);
+		
+		jse.executeScript("window.scrollBy(0,-300)", "");
 	}
 }

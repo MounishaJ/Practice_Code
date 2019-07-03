@@ -129,10 +129,42 @@ public class Page {
 	
 	@FindBy(xpath="//span[@class='paginate_button next icon-right-arrow x_small']")
 	WebElement nextpage;
-	public WebElement pagearrow()
-	{
+		
+	public WebElement getNextpage() {
 		return nextpage;
 	}
+	
+	
+	@FindBy(xpath="//span[@class='paginate_button next icon-right-arrow x_small disabled']")
+	WebElement disablepagearrow;
+	public WebElement pageArrowDisable()
+	{
+		return disablepagearrow;
+	}
+	
+	
+	
+	
+	@FindBy(xpath="//td[@class=' capitalize'][1]")
+	List <WebElement> name;
+	public List<WebElement> Name()
+	{
+		return name;
+	}
+	
+	@FindBy(xpath="//span[@class='paginate_total']")
+	WebElement pagecount;
+	public WebElement pcount()
+	{
+		return pagecount;
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
