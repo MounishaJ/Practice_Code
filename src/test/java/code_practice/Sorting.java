@@ -45,15 +45,61 @@ public class Sorting extends Base {
 	}
 
 	
-
+	@Test
 	 public void l1() throws InterruptedException 
 	 { 
-		// List<String> mouni=List12(); System.out.println("unsorted array list items"+mouni);
-		 //Collections.sort(mouni); System.out.println("sorted array list items"	 +mouni);
-		 //log.info("Comapny logs"+mouni); driver.quit();
+		 List<String> mouni=List12(); System.out.println("unsorted array list items"+mouni);
+		Collections.sort(mouni); System.out.println("sorted array list items"	 +mouni);
+		log.info("Comapny logs"+mouni); driver.quit();
 		 }
 	
-	 @Test  
+	   
+
+
+
+	public List<String> List12() throws InterruptedException
+	{
+		 List<String> Actual=new ArrayList<String>();
+		
+		Page p=new Page(driver);
+
+		
+		for(int i=0;i<23;i++)
+		{
+		int count=p.Name().size();
+			for(int j=0;j<count;j++) 
+			{
+				
+			Actual.add(p.Name().get(j).getText());
+		//	System.out.println(p.Name().get(j).getText());
+			 Iterator it = p.Name().iterator();   //name is present
+			 while (it.hasNext())    //next element is present or not
+				 
+				it.next();
+			}
+		
+			if(i==23)
+			{	
+				break;
+			}
+			
+			scrolldown();
+			//.getNextpage().click();
+			Thread.sleep(2000);
+			scrollup();	
+		
+			
+		}
+		return Actual;
+}
+}
+
+//staleelemnet exception
+
+/**
+ * 
+ * 
+ * 
 	 public void pagecount()
 	 {
 		 Page p=new Page(driver);
@@ -70,52 +116,7 @@ public class Sorting extends Base {
 		
 	
 	 }
-} 
-
-/*
-	public List<String> List12() throws InterruptedException
-	{
-		 List<String> Actual=new ArrayList<String>();
-		
-		Page p=new Page(driver);
-		int pc=pagecount();
-		
-		for(int i=0;i<pc;i++)
-		{
-		int count=p.Name().size();
-			for(int j=0;j<count;j++) 
-			{
-				
-			Actual.add(p.Name().get(j).getText());
-		//	System.out.println(p.Name().get(j).getText());
-			 Iterator it = p.Name().iterator();   //name is present
-			 while (it.hasNext())    //next element is present or not
-				 
-				it.next();
-			}
-		
-			if(i==pc)
-					
-				break;
-			else
-			{
-			scrolldown();
-			p.getNextpage().click();
-			Thread.sleep(2000);
-			scrollup();	
-		}
-			
-		}
-		return Actual;
-		
-
-	
-}
-}
-
-//staleelemnet exception
-
-/**
+ 
  * Retrieve the List of Items in the Table before Sorting and Store into Array
  * 
  * List<WebElement> tdList =

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25190" started-at="2019-07-03T13:10:41Z" finished-at="2019-07-03T13:11:07Z">
+  <suite name="Default suite" duration-ms="28924" started-at="2019-07-05T04:28:22Z" finished-at="2019-07-05T04:28:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25190" started-at="2019-07-03T13:10:41Z" finished-at="2019-07-03T13:11:07Z">
-      <class name="code_practice.Sorting">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:code_practice.Sorting@36ebc363]" name="initialize" is-config="true" duration-ms="25083" started-at="2019-07-03T13:10:41Z" finished-at="2019-07-03T13:11:07Z">
+    <test name="Default test" duration-ms="28924" started-at="2019-07-05T04:28:22Z" finished-at="2019-07-05T04:28:51Z">
+      <class name="code_practice.Sorting1">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:code_practice.Sorting1@c730b35]" name="initialize" is-config="true" duration-ms="28901" started-at="2019-07-05T04:28:22Z" finished-at="2019-07-05T04:28:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="pagecount()[pri:0, instance:code_practice.Sorting@36ebc363]" name="pagecount" duration-ms="54" started-at="2019-07-03T13:11:07Z" finished-at="2019-07-03T13:11:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pagecount -->
-      </class> <!-- code_practice.Sorting -->
+      </class> <!-- code_practice.Sorting1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
