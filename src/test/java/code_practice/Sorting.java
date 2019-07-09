@@ -48,8 +48,10 @@ public class Sorting extends Base {
 	@Test
 	 public void l1() throws InterruptedException 
 	 { 
-		 List<String> mouni=List12(); System.out.println("unsorted array list items"+mouni);
-		Collections.sort(mouni); System.out.println("sorted array list items"	 +mouni);
+		 List<String> mouni=List12();
+		 System.out.println("unsorted array list items"+mouni);
+		Collections.sort(mouni); 
+		System.out.println("sorted array list items"+mouni);
 		log.info("Comapny logs"+mouni); driver.quit();
 		 }
 	
@@ -63,7 +65,6 @@ public class Sorting extends Base {
 		
 		Page p=new Page(driver);
 
-		
 		for(int i=0;i<23;i++)
 		{
 		int count=p.Name().size();
@@ -71,28 +72,59 @@ public class Sorting extends Base {
 			{
 				
 			Actual.add(p.Name().get(j).getText());
-		//	System.out.println(p.Name().get(j).getText());
+			System.out.println(p.Name().get(j).getText());
 			 Iterator it = p.Name().iterator();   //name is present
 			 while (it.hasNext())    //next element is present or not
 				 
 				it.next();
 			}
 		
-			if(i==23)
+			if(i==22)
 			{	
 				break;
 			}
-			
+			else
+			{
 			scrolldown();
-			//.getNextpage().click();
+			p.getNextpage().click();
 			Thread.sleep(2000);
 			scrollup();	
 		
-			
+			}
 		}
 		return Actual;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //staleelemnet exception
 

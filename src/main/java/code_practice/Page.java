@@ -142,6 +142,12 @@ public class Page {
 		return disablepagearrow;
 	}
 	
+	@FindBy(xpath="//span[contains(@class,'x_small disabled')]")
+	WebElement darrow;
+	public WebElement pagedisable()
+	{
+		return darrow;
+	}
 	
 	
 	

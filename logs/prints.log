@@ -1,180 +1,41 @@
-2019-07-03 15:45:17,295 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 15:45:23,842 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 15:45:25,699 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 15:46:49,622 [code_practice.Sorting.l1] - Comapny logs[Smart Solution, Hjbdsifalsd, Hgbvc Hjs\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\, Gavdhgawjedhj%$%^&!^*&Q*&!^@&!&@ghhb Nchsgdywquwiy, WQWQWQWQUMUKUMUMJUMJUMJUJMJUJMJUUKKUUUJMJUUNMJUMUM, TDUT GFIYF HLHHLKGFLJVITFOUBGDUTGOU. ITFIYGIHBOYIY, Asssdfhhhghhjjjjjjkkkkkllllmbbvcxxxxccccccffttttt, FUIJSBUH GGGGJHGGH HUJHGGGGGG GIIJJUJJHHBBBJ HUIJN, Fig RD TIDYIT GYKFIGFIG ITDTFKGCKGDLJ LHGOYFHKY FD, Export123, Asds, Business Foruteen, Business Thirteen, Business Twelve, Aaadsfasdasd, Business Eleven, Ibibssiibsiibsbibisibbisibsibsbibisibsjbibsbjbjjbs, Snisnns Snnss Hsnksks Bsnksjs Hsjjsjsksksksksnsmsm, XYZ Corporationjvjvjv Vjvjvvjvjvjvjv Vhvuvvuvjvhvh, CUSTOMERONE, XYZ Corporation, Busnisesjshajajajajajahahajahgdhhagdhjufdrtyhbgfds, Business 11asdfghjklzxcvbnmasdfghjklopiuytrdfghhja, Zxcvbnmlkjhgfdsaqwertyuiopmnbvcxzasdfghjklqwertyui, Business Ten, Anc Corporation, Bvh, Hgffhjkl, Ccvcv, Customer One, Aaaaaaaasdfasdfdasfasdf, Fds, Hbh, Xxxxx Solutions, ABC Solutions, Sand Update, Aaaaaaa, J, Hffdgfkhvkbvkh, Hf, Aqqwertyuioplkjhgfdsazxcvbnmlpoikjuyhgtrfdewsaqzxc, Mu Cons, M Constructions, Constructionfsjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk, ABC Co, Aasas, XXXX, Xyz Solutions, Abc Corporation, Business 8 Ajanasnshsnsn, Travels 123, Ssssss, Mounisha, Importt, Import1, Export12345, A123, Mxs, A, Ex[port@#$, Dfndj, 111, ABC, Bind123, S, Mxxv, Mmmm, Hdbxhisujk, Business Six, Business 5, Johny, Hjbiuhjkd, Business 4, Business 3, Hbwkujhlka, Import, &XPORT, Viygrwhjk, @xport, Busin, Export, Abcd, Concrete, Travels, Aaaa, Xxxxx, Fdsfs, Asdfg, Zephyr Investments, Techo Solutions, Libera, Strength Gurus, Wealth Zone Group, Magik Lamp, Magna Gases, Rainbow Life, Dreamscape Garden Care, Netobill, EnviroSource Design, Simple Solutions, Complete Tech, The Goose And Duck, Netaid, Formula Grey, Pearl Architectural Design, Planet Profit, Altered Capitalcorp, Dream Home Improvements, Monk Home Improvements, ManCharm, Asian Answers, MegaSolutions, Gamma Gas, Specific Appraisals, Jackpot Consultant, World Of Fun, Monit, Desert Garden Help, Muscle Factory, Zig Zag Children Clothes, Buena Vista Garden Maintenance, The Spotted Cougar, Future Plan, Konsili, Merrymaking, Liberty Wealth Planner, Strategic Profit, Afforda, Quality Event Planner, House Of Gas, Maxi-Tech, Matrix Architectural Service , A Plus Lawn Care, Wealthy Ideas, Magna Architectural Design, Mission G, Multi-Systems Merchant Services, Reliable Investments, Best Biz Survis, Suadela Investment, Affinity Investment Group, Freedom Map, Red Fox Tavern, Vari-Tec, Maxaprofit, New World Realty, G, Bountiful Harvest Health Food Store, Garden Guru, Intelli Wealth Group, Pointers, Brilliant Home Designs, Strongbod, Life's Gold, Total Yard Management, Solution Bridge, Friendly Advice, The Pink Pig Tavern, Flexus, Infinite Wealth, Four Leaf Clover, Gamma Grays, Micro Design, Omni Realty, Titania, Dun Rite Lawn Maintenance, Bonanza Produce Stores, Datacorp, Sistemos, Golden Joy, Envirotecture Design, Jackhammer Technologies, MagnaSolution, Architectural Genie, Destiny Planners, Mission Realty, Future Bright, Alladin Realty, Total Sources, Happy Bear Investment, Life Map Planners, Terra, Solid Future, Castle Realty, Creative Wealth, Total Quality, Monk Real Estate Service, Komerci, Enrich Garden Services, Formula Gray, Belle Lady, Integra Investment Plan, Body Toning, System Star, Sexsi Senorita, Strategy Planner, Xray Eye & Vision Clinics, Asian Junction, Happy Family, Pro Yard Services, The Network Chef, Matrix Architectural Service, Asian Solutions, Sunburst Garden Management, Omni Architectural Designs, Landskip Yard Care, Star Interior Design, Team Uno, Network Air, Beasts Of Beauty, Electronics Source, Star Assistance, Gas Zone, Vibrant Man, Ideal Garden Management, Signa Air, Stratacard, Plan Smart, Corpby, Fresh Start, Honest Air Group, Indiewealth]
-2019-07-03 15:51:28,673 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 15:51:34,663 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 15:51:36,627 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 15:53:06,926 [code_practice.Sorting.l1] - Comapny logs[&XPORT, 111, @xport, A, A Plus Lawn Care, A123, ABC, ABC Co, ABC Solutions, Aaaa, Aaaaaaa, Aaaaaaaasdfasdfdasfasdf, Aaadsfasdasd, Aasas, Abc Corporation, Abcd, Affinity Investment Group, Afforda, Alladin Realty, Altered Capitalcorp, Anc Corporation, Aqqwertyuioplkjhgfdsazxcvbnmlpoikjuyhgtrfdewsaqzxc, Architectural Genie, Asdfg, Asds, Asian Answers, Asian Junction, Asian Solutions, Asssdfhhhghhjjjjjjkkkkkllllmbbvcxxxxccccccffttttt, Beasts Of Beauty, Belle Lady, Best Biz Survis, Bind123, Body Toning, Bonanza Produce Stores, Bountiful Harvest Health Food Store, Brilliant Home Designs, Buena Vista Garden Maintenance, Busin, Business 11asdfghjklzxcvbnmasdfghjklopiuytrdfghhja, Business 3, Business 4, Business 5, Business 8 Ajanasnshsnsn, Business Eleven, Business Foruteen, Business Six, Business Ten, Business Thirteen, Business Twelve, Busnisesjshajajajajajahahajahgdhhagdhjufdrtyhbgfds, Bvh, CUSTOMERONE, Castle Realty, Ccvcv, Complete Tech, Concrete, Constructionfsjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk, Corpby, Creative Wealth, Customer One, Datacorp, Desert Garden Help, Destiny Planners, Dfndj, Dream Home Improvements, Dreamscape Garden Care, Dun Rite Lawn Maintenance, Electronics Source, Enrich Garden Services, EnviroSource Design, Envirotecture Design, Ex[port@#$, Export, Export123, Export12345, FUIJSBUH GGGGJHGGH HUJHGGGGGG GIIJJUJJHHBBBJ HUIJN, Fds, Fdsfs, Fig RD TIDYIT GYKFIGFIG ITDTFKGCKGDLJ LHGOYFHKY FD, Flexus, Formula Gray, Formula Grey, Four Leaf Clover, Freedom Map, Fresh Start, Friendly Advice, Future Bright, Future Plan, G, Gamma Gas, Gamma Grays, Garden Guru, Gas Zone, Gavdhgawjedhj%$%^&!^*&Q*&!^@&!&@ghhb Nchsgdywquwiy, Golden Joy, Happy Bear Investment, Happy Family, Hbh, Hbwkujhlka, Hdbxhisujk, Hf, Hffdgfkhvkbvkh, Hgbvc Hjs\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\, Hgffhjkl, Hjbdsifalsd, Hjbiuhjkd, Honest Air Group, House Of Gas, Ibibssiibsiibsbibisibbisibsibsbibisibsjbibsbjbjjbs, Ideal Garden Management, Import, Import1, Importt, Indiewealth, Infinite Wealth, Integra Investment Plan, Intelli Wealth Group, J, Jackhammer Technologies, Jackpot Consultant, Johny, Komerci, Konsili, Landskip Yard Care, Libera, Liberty Wealth Planner, Life Map Planners, Life's Gold, M Constructions, Magik Lamp, Magna Architectural Design, Magna Gases, MagnaSolution, ManCharm, Matrix Architectural Service, Matrix Architectural Service , Maxaprofit, Maxi-Tech, MegaSolutions, Merrymaking, Micro Design, Mission G, Mission Realty, Mmmm, Monit, Monk Home Improvements, Monk Real Estate Service, Mounisha, Mu Cons, Multi-Systems Merchant Services, Muscle Factory, Mxs, Mxxv, Netaid, Netobill, Network Air, New World Realty, Omni Architectural Designs, Omni Realty, Pearl Architectural Design, Plan Smart, Planet Profit, Pointers, Pro Yard Services, Quality Event Planner, Rainbow Life, Red Fox Tavern, Reliable Investments, S, Sand Update, Sexsi Senorita, Signa Air, Simple Solutions, Sistemos, Smart Solution, Snisnns Snnss Hsnksks Bsnksjs Hsjjsjsksksksksnsmsm, Solid Future, Solution Bridge, Specific Appraisals, Ssssss, Star Assistance, Star Interior Design, Stratacard, Strategic Profit, Strategy Planner, Strength Gurus, Strongbod, Suadela Investment, Sunburst Garden Management, System Star, TDUT GFIYF HLHHLKGFLJVITFOUBGDUTGOU. ITFIYGIHBOYIY, Team Uno, Techo Solutions, Terra, The Goose And Duck, The Network Chef, The Pink Pig Tavern, The Spotted Cougar, Titania, Total Quality, Total Sources, Total Yard Management, Travels, Travels 123, Vari-Tec, Vibrant Man, Viygrwhjk, WQWQWQWQUMUKUMUMJUMJUMJUJMJUJMJUUKKUUUJMJUUNMJUMUM, Wealth Zone Group, Wealthy Ideas, World Of Fun, XXXX, XYZ Corporation, XYZ Corporationjvjvjv Vjvjvvjvjvjvjv Vhvuvvuvjvhvh, Xray Eye & Vision Clinics, Xxxxx, Xxxxx Solutions, Xyz Solutions, Zephyr Investments, Zig Zag Children Clothes, Zxcvbnmlkjhgfdsaqwertyuiopmnbvcxzasdfghjklqwertyui]
-2019-07-03 16:00:23,082 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:00:38,915 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:00:45,686 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:02:51,482 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:02:58,120 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:03:00,108 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:06:45,640 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:07:12,133 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:07:20,616 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:09:40,358 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:09:47,600 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:09:49,732 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:12:57,529 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:13:03,076 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:13:04,972 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:14:39,918 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:14:46,422 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:14:48,233 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:16:15,944 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:16:23,041 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:16:25,372 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:17:20,897 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:17:26,480 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:17:28,297 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:19:03,702 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:19:09,610 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:19:11,357 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:20:46,705 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:21:02,885 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:21:06,913 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:22:08,449 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:22:13,776 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:22:15,689 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:23:24,136 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:23:29,494 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:23:31,402 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:27:09,776 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:27:15,737 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:27:17,847 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:28:44,331 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:28:49,099 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:28:50,990 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:29:04,210 [code_practice.Sorting.l1] - Comapny logs[]
-2019-07-03 16:37:13,551 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:37:18,561 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:37:20,389 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:41:15,237 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:41:22,752 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:41:25,025 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:42:59,752 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:43:08,069 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:43:09,858 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:44:29,004 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:44:33,961 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:44:35,765 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:50:17,821 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:50:28,661 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:50:31,703 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:56:21,726 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:56:28,682 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:56:31,006 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 16:59:31,084 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 16:59:35,820 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 16:59:37,734 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 17:03:50,522 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 17:03:57,683 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 17:03:59,489 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 17:04:12,100 [code_practice.Sorting.l1] - Comapny logs[]
-2019-07-03 17:04:54,705 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 17:04:59,965 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 17:05:01,730 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 17:05:15,474 [code_practice.Sorting.l1] - Comapny logs[]
-2019-07-03 17:05:47,218 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 17:05:56,567 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 17:05:58,401 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 17:06:10,836 [code_practice.Sorting.l1] - Comapny logs[]
-2019-07-03 17:08:05,486 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 17:08:12,505 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 17:08:14,473 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 17:09:27,687 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 17:09:32,623 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 17:09:34,469 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 17:13:00,119 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 17:13:07,004 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 17:13:09,208 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 17:14:22,473 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 17:14:27,674 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 17:14:29,525 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 17:16:17,229 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 17:16:22,162 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 17:16:23,964 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 17:38:43,552 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 17:39:04,832 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 17:39:06,697 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:06:06,099 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:06:14,076 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:06:16,234 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:10:22,959 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:10:28,972 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:10:30,776 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:12:34,226 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:12:39,794 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:12:41,773 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:13:44,081 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:13:49,608 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:13:51,406 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:14:44,321 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:14:49,942 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:14:51,690 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:17:05,733 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:17:11,409 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:17:13,350 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:25:20,902 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:25:28,071 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:25:30,954 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:26:47,186 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:26:52,443 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:26:54,310 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:28:16,928 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:28:23,667 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:28:25,502 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:29:24,205 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:29:30,022 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:29:31,828 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:30:30,525 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:30:37,575 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:30:39,602 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:31:32,963 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:31:37,862 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:31:45,912 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:31:49,131 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:31:59,756 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:32:01,960 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:32:47,297 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:32:53,343 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:32:55,096 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:33:43,166 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:33:48,881 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:33:50,709 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-03 18:40:47,311 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-03 18:40:53,307 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-03 18:40:55,141 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-04 11:02:36,572 [code_practice.Sorting1.initialize] - Driver initialized successfully
-2019-07-04 11:02:43,204 [code_practice.Sorting1.initialize] - successfully launched URL
-2019-07-04 11:02:46,049 [code_practice.Sorting1.initialize] - sucessfully logged into the application
-2019-07-04 18:16:15,076 [code_practice.Sorting1.initialize] - Driver initialized successfully
-2019-07-04 18:16:23,155 [code_practice.Sorting1.initialize] - successfully launched URL
-2019-07-04 18:16:27,216 [code_practice.Sorting1.initialize] - sucessfully logged into the application
-2019-07-04 18:17:40,713 [code_practice.Sorting1.initialize] - Driver initialized successfully
-2019-07-04 18:17:56,116 [code_practice.Sorting1.initialize] - successfully launched URL
-2019-07-04 18:17:57,973 [code_practice.Sorting1.initialize] - sucessfully logged into the application
-2019-07-04 18:19:54,626 [code_practice.Sorting1.initialize] - Driver initialized successfully
-2019-07-04 18:20:00,490 [code_practice.Sorting1.initialize] - successfully launched URL
-2019-07-04 18:20:02,314 [code_practice.Sorting1.initialize] - sucessfully logged into the application
-2019-07-04 18:22:17,793 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-04 18:22:24,552 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-04 18:22:26,412 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-04 18:24:53,833 [code_practice.Sorting.initialize] - Driver initialized successfully
-2019-07-04 18:24:58,766 [code_practice.Sorting.initialize] - successfully launched URL
-2019-07-04 18:25:00,533 [code_practice.Sorting.initialize] - sucessfully logged into the application
-2019-07-05 09:49:36,518 [code_practice.Sorting1.initialize] - Driver initialized successfully
-2019-07-05 09:49:56,017 [code_practice.Sorting1.initialize] - successfully launched URL
-2019-07-05 09:50:05,270 [code_practice.Sorting1.initialize] - sucessfully logged into the application
-2019-07-05 09:54:28,043 [code_practice.Sorting1.initialize] - Driver initialized successfully
-2019-07-05 09:54:29,212 [code_practice.Sorting1.initialize] - Driver initialized successfully
-2019-07-05 09:54:37,908 [code_practice.Sorting1.initialize] - successfully launched URL
-2019-07-05 09:54:38,789 [code_practice.Sorting1.initialize] - successfully launched URL
-2019-07-05 09:54:48,936 [code_practice.Sorting1.initialize] - sucessfully logged into the application
-2019-07-05 09:54:48,943 [code_practice.Sorting1.initialize] - sucessfully logged into the application
-2019-07-05 09:58:28,993 [code_practice.Sorting1.initialize] - Driver initialized successfully
-2019-07-05 09:58:34,464 [code_practice.Sorting1.initialize] - successfully launched URL
-2019-07-05 09:58:36,369 [code_practice.Sorting1.initialize] - sucessfully logged into the application
+2019-07-09 15:13:13,001 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 15:13:18,081 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 15:13:20,063 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 17:19:03,464 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 17:19:17,988 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 17:19:21,545 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 17:21:34,756 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 17:21:45,652 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 17:21:47,531 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 17:25:20,260 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 17:25:35,607 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 17:25:37,435 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 17:57:42,786 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 17:57:54,117 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 17:57:55,902 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 17:59:57,031 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 18:00:05,385 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 18:00:07,478 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 18:03:15,215 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 18:03:26,480 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 18:03:28,404 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 18:15:21,784 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 18:15:30,215 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 18:15:32,037 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 18:16:58,558 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 18:17:15,731 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 18:17:17,501 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 18:19:56,140 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 18:20:15,674 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 18:20:17,397 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 18:22:02,808 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 18:22:11,502 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 18:22:13,340 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 18:25:14,876 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 18:25:46,360 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 18:26:03,060 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 18:26:12,967 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 18:26:14,817 [code_practice.Sortfunction.initialize] - sucessfully logged into the application
+2019-07-09 18:27:43,781 [code_practice.Sortfunction.initialize] - Driver initialized successfully
+2019-07-09 18:27:55,011 [code_practice.Sortfunction.initialize] - successfully launched URL
+2019-07-09 18:27:56,747 [code_practice.Sortfunction.initialize] - sucessfully logged into the application

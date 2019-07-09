@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28924" started-at="2019-07-05T04:28:22Z" finished-at="2019-07-05T04:28:51Z">
+  <suite name="Default suite" duration-ms="53928" started-at="2019-07-09T12:57:39Z" finished-at="2019-07-09T12:58:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28924" started-at="2019-07-05T04:28:22Z" finished-at="2019-07-05T04:28:51Z">
-      <class name="code_practice.Sorting1">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:code_practice.Sorting1@c730b35]" name="initialize" is-config="true" duration-ms="28901" started-at="2019-07-05T04:28:22Z" finished-at="2019-07-05T04:28:51Z">
+    <test name="Default test" duration-ms="53928" started-at="2019-07-09T12:57:39Z" finished-at="2019-07-09T12:58:33Z">
+      <class name="code_practice.Sortfunction">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:code_practice.Sortfunction@36ebc363]" name="initialize" is-config="true" duration-ms="52206" started-at="2019-07-09T12:57:39Z" finished-at="2019-07-09T12:58:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-      </class> <!-- code_practice.Sorting1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:code_practice.Sortfunction@36ebc363]" name="test1" duration-ms="1689" started-at="2019-07-09T12:58:31Z" finished-at="2019-07-09T12:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- code_practice.Sortfunction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
