@@ -8,7 +8,6 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -16,7 +15,8 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class Sortfunction extends Base {
-
+//7-10-2019
+	
 	public static Logger log = LogManager.getLogger(CommonSearch.class.getName());
 	public static Page p = new Page(driver);
 	int count = 0;
@@ -38,39 +38,41 @@ public class Sortfunction extends Base {
 		p.customer_Tab().click();
 
 		Assert.assertEquals(p.customer_Tab().getText(), "Customers");
-		}
-@Test
-public void test1() throws InterruptedException
-{ 
-	List<String> Actual=new ArrayList<String>();
-
-
-Page p=new Page(driver);
-
-while(p.getNextpage().isEnabled())
-{	
-int count=p.Name().size();
-	for(int j=0;j<count;j++) 
-	{
-		
-	Actual.add(p.Name().get(j).getText());
-	System.out.println(p.Name().get(j).getText());
-	 Iterator it = p.Name().iterator();   //name is present
-	 while (it.hasNext())    //next element is present or not
-		 
-		it.next();
 	}
 
-	scrolldown();
-	p.getNextpage().click();
-	Thread.sleep(2000);
-	scrollup();	
-	
+	@Test
+	public void test1() throws InterruptedException {
+		List<String> Actual = new ArrayList<String>();
+
+		Page p = new Page(driver);
+
+		//String text = p.getNextpage().getAttribute("class");
+
+		while (true) {
+			String text = p.getNextpage().getAttribute("class");
+			System.out.println(text);
+			if (text.contains("disabled")) {
+				driver.quit();
+			}
+
+			int count = p.Name().size();
+			for (int j = 0; j < count; j++) {
+
+				Actual.add(p.Name().get(j).getText());
+				System.out.println(p.Name().get(j).getText());
+				Iterator it = p.Name().iterator(); // name is present
+				while (it.hasNext()) // next element is present or not
+
+					it.next();
+			} // it moves next
+			scrolldown();
+			if (!text.contains("disabled")) {
+			p.getNextpage().click();}
+			Thread.sleep(2000);
+			scrollup();
+
+		}
+
+	}
 
 }
-
-}}
-
-
-
-////span[contains(@class,'x_small disabled')]
