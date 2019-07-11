@@ -8,6 +8,7 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -16,7 +17,7 @@ import resources.Base;
 
 public class Sortfunction extends Base {
 //7-10-2019
-	
+
 	public static Logger log = LogManager.getLogger(CommonSearch.class.getName());
 	public static Page p = new Page(driver);
 	int count = 0;
@@ -46,19 +47,15 @@ public class Sortfunction extends Base {
 
 		Page p = new Page(driver);
 
-		//String text = p.getNextpage().getAttribute("class");
+		// String text = p.getNextpage().getAttribute("class");
 
 		while (true) {
-			String text = p.getNextpage().getAttribute("class");
-			System.out.println(text);
-			if (text.contains("disabled")) {
-				driver.quit();
-			}
 
 			int count = p.Name().size();
 			for (int j = 0; j < count; j++) {
 
 				Actual.add(p.Name().get(j).getText());
+				System.out.println(j + " ");
 				System.out.println(p.Name().get(j).getText());
 				Iterator it = p.Name().iterator(); // name is present
 				while (it.hasNext()) // next element is present or not
@@ -66,8 +63,13 @@ public class Sortfunction extends Base {
 					it.next();
 			} // it moves next
 			scrolldown();
-			if (!text.contains("disabled")) {
-			p.getNextpage().click();}
+		
+			if ((p.getNextpage().getAttribute("innerText")).contains("disabled")) {
+				driver.quit();
+			} else if ((p.getNextpage().getAttribute("innerText")).contains("x_small")) {
+				Actions actions = new Actions(driver);
+				actions.moveToElement(p.getNextpage()).click().build().perform();
+			}
 			Thread.sleep(2000);
 			scrollup();
 
@@ -76,3 +78,4 @@ public class Sortfunction extends Base {
 	}
 
 }
+//var isEnable = element.GetAttribute('class').Contains("disabled");
