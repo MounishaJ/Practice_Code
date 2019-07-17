@@ -167,10 +167,20 @@ public class Page {
 	
 	
 	
+	@FindBy(css = "span[class^='paginate_button next icon-right-arrow x_small']")
+	WebElement arrow;
+	public WebElement Arrow()
+	{
+		return arrow;
+	}
 	
 	
-	
-	
+@FindBy(css="-span[class='icon-sort-up-or-sort-down-couple-of-arrows sorting_icon']")
+WebElement sorticon;
+public WebElement sortIcon()
+{
+	return sorticon;
+}
 	
 	
 	

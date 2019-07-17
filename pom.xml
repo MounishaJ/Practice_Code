@@ -14,18 +14,19 @@
         <filtering>true</filtering>
       </resource>
       </resources> 
-   <plugins>       <!-- Integrate testng file into pom.xml file by using sre-fire plugin -->
-            <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M3</version>
-            <configuration>
-              <suiteXmlFiles>
-                <suiteXmlFile>testng.xml</suiteXmlFile>
-              </suiteXmlFiles>
-            </configuration>
-          </plugin>
-        </plugins>
+   <plugins> 
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M3</version>
+          <configuration>
+          <suiteXmlFiles>
+              <suiteXmlFile>testng.xml</suiteXmlFile>
+           </suiteXmlFiles>
+        </configuration>
+        </plugin>
+      </plugins>
+ 
     </build>
     
   <dependencies>
@@ -45,14 +46,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.14.3</version>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>6.14.3</version>
-    <scope>compile</scope>
-</dependency>
+    </dependency>
 <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-api</artifactId>

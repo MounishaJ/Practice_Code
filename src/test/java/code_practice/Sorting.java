@@ -11,6 +11,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -43,29 +46,16 @@ public class Sorting extends Base {
 		
 
 	}
-
 	
 	@Test
-	 public void l1() throws InterruptedException 
+	public List<String> l1() throws InterruptedException 
 	 { 
-		 List<String> mouni=List12();
-		 System.out.println("unsorted array list items"+mouni);
-		Collections.sort(mouni); 
-		System.out.println("sorted array list items"+mouni);
-		log.info("Comapny logs"+mouni); driver.quit();
-		 }
-	
-	   
-
-
-
-	public List<String> List12() throws InterruptedException
-	{
-		 List<String> Actual=new ArrayList<String>();
+		List<String> Actual=new ArrayList<String>();
 		
 		Page p=new Page(driver);
-
-		for(int i=0;i<23;i++)
+		String name=p.Arrow().getAttribute("class");
+		
+		while(true)
 		{
 		int count=p.Name().size();
 			for(int j=0;j<count;j++) 
@@ -78,53 +68,170 @@ public class Sorting extends Base {
 				 
 				it.next();
 			}
+		scrolldown();
 		
-			if(i==22)
-			{	
-				break;
-			}
-			else
-			{
-			scrolldown();
-			p.getNextpage().click();
+		if(!name.contains("disabled"))
+		{
+			p.Arrow().click();
 			Thread.sleep(2000);
 			scrollup();	
-		
 			}
+		else
+		{
+			driver.close();	
 		}
-		return Actual;
+		 return Actual;
+	}
+		
+	 
+	 }
+
+	
+	
+/*	
+	public void m() throws InterruptedException
+	{
+		List<String> Actual1=l1();
+		System.out.println(Actual1);
+		Collections.sort(Actual1);
+		System.out.println(Actual1);
+	}
+	*/
+}
+	//contains x_small=>that element isclickable or not by specify xpath in that
+	   
+
+
+
+
+/*
+ * driver.findElement(By.xpath("//span[@class='paginate_button last icon-double_right padding_right_none']")).click();
+		WebElement arrow=driver.findElement(By.xpath("//span[@class='paginate_button next icon-right-arrow x_small']"));
+		
+		String text=driver.findElement(By.xpath("//span[@class='paginate_button next icon-right-arrow x_small']")).getAttribute("class");
+		System.out.println(text);
+		WebDriverWait wait = new WebDriverWait(driver, 10); 
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(arrow));
+		System.out.println(element);
+		element.click();
+		
+		
+		
+		
+				 List<String> Actual=new ArrayList<String>();
+		
+		Page p=new Page(driver);
+		while(true) {
+
+		WebElement arrow=driver.findElement(By.cssSelector("span[class^='paginate_button next icon-right-arrow x_small']"));
+						
+		int count=p.Name().size();
+		for(int j=0;j<count;j++) 
+		{
+			
+		Actual.add(p.Name().get(j).getText());
+		System.out.println(p.Name().get(j).getText());
+		 Iterator it = p.Name().iterator();   //name is present
+		 while (it.hasNext())    //next element is present or not
+			 
+			it.next();
+		}
+		scrolldown();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 10); 
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(arrow));
+		element.click();
+		Thread.sleep(2000);
+		scrollup();	
+			
+		}
+
+			
+		}
+		
+		
+		
+			@Test
+	public void test1() throws InterruptedException {
+		List<String> Actual = new ArrayList<String>();
+
+		Page p = new Page(driver);
+
+		// String text = p.getNextpage().getAttribute("class");
+
+		while (true) {
+
+			int count = p.Name().size();
+			for (int j = 0; j < count; j++) {
+
+				Actual.add(p.Name().get(j).getText());
+				System.out.println(j + " ");
+				System.out.println(p.Name().get(j).getText());
+				Iterator it = p.Name().iterator(); // name is present
+				while (it.hasNext()) // next element is present or not
+
+					it.next();
+			} // it moves next
+			scrolldown();
+		
+			if ((p.getNextpage().getAttribute("innerText")).contains("disabled")) {
+				driver.quit();
+			} else if ((p.getNextpage().getAttribute("innerText")).contains("x_small")) {
+				Actions actions = new Actions(driver);
+				actions.moveToElement(p.getNextpage()).click().build().perform();
+			}
+			Thread.sleep(2000);
+			scrollup();
+
+		}
+
+	}
+
+
+
+
+
+public List<String> List12() throws InterruptedException
+{
+	 List<String> Actual=new ArrayList<String>();
+	
+	Page p=new Page(driver);
+
+	for(int i=0;i<23;i++)
+	{
+	int count=p.Name().size();
+		for(int j=0;j<count;j++) 
+		{
+			
+		Actual.add(p.Name().get(j).getText());
+		System.out.println(p.Name().get(j).getText());
+		 Iterator it = p.Name().iterator();   //name is present
+		 while (it.hasNext())    //next element is present or not
+			 
+			it.next();
+		}
+	
+		if(i==22)
+		{	
+			break;
+		}
+		else
+		{
+		scrolldown();
+		p.getNextpage().click();
+		Thread.sleep(2000);
+		scrollup();	
+	
+		}
+	}
+	return Actual;
 }
 }
 
+//var isEnable = element.GetAttribute('class').Contains("disabled");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ */
 
 //staleelemnet exception
 

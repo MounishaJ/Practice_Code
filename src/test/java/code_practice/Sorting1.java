@@ -9,15 +9,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 import org.testng.annotations.Test;
 
 import resources.Base;
 
-public class Sorting1 extends Base{
+public class Sorting1 extends Base {
 
 	public static Logger log = LogManager.getLogger(CommonSearch.class.getName());
-	public static Page p = new Page(driver);
+	//public static Page p = new Page(driver);
 	int count = 0;
 
 	@BeforeTest
@@ -37,45 +37,61 @@ public class Sorting1 extends Base{
 		p.customer_Tab().click();
 
 		Assert.assertEquals(p.customer_Tab().getText(), "Customers");
-			}
+		System.out.println("Custoner");
+	}
 
 	@Test
-	
-	public  void List12() throws InterruptedException
-	{
-		 List<String> Actual=new ArrayList<String>();
-		
+	public List<String> mouni() throws InterruptedException {
+
+		List<String> Actual = new ArrayList<String>();
 		Page p=new Page(driver);
-		
-	while(true)
-	{
-		int count=p.Name().size();
-		for(int j=0;j<count;j++) 
-		{
-			
-		Actual.add(p.Name().get(j).getText());
-		System.out.println(p.Name().get(j).getText());
-		 Iterator it = p.Name().iterator();   //name is present
-		 while (it.hasNext())    //next element is present or not
-			 
-			it.next();
-		}
-		scrolldown();
-		if(p.pagedisable().isDisplayed())
-		{
-			driver.close();
-		}
-		else
-		{
-			p.getNextpage().click();
-		}
+		while (true) {
+			String name = p.Arrow().getAttribute("class");
+			int count = p.Name().size();
+			for (int j = 0; j < count; j++) {
+
+				Actual.add(p.Name().get(j).getText());
+				System.out.println(p.Name().get(j).getText());
+				Iterator it = p.Name().iterator(); // name is present
+				while (it.hasNext()) // next element is present or not
+
+					it.next();
+			}
+			scrolldown();
+		if (!name.contains("disabled")) {
+		p.Arrow().click();
 		Thread.sleep(2000);
-		scrollup();	
-	
-	}
-	
-		
-		
+	   scrollup();
+		} else if (name.contains("disabled")) {
+		driver.quit();
+		}
+		}
 	}
 }
-		
+
+/*
+ * 
+ * @Test
+ * 
+ * public void List12() throws InterruptedException { List<String> Actual=new
+ * ArrayList<String>();
+ * 
+ * Page p=new Page(driver);
+ * 
+ * while(true) { int count=p.Name().size(); for(int j=0;j<count;j++) {
+ * 
+ * Actual.add(p.Name().get(j).getText());
+ * System.out.println(p.Name().get(j).getText()); Iterator it =
+ * p.Name().iterator(); //name is present while (it.hasNext()) //next element is
+ * present or not
+ * 
+ * it.next(); } scrolldown(); if(p.pagedisable().isDisplayed()) {
+ * driver.close(); } else { p.getNextpage().click(); } Thread.sleep(2000);
+ * scrollup();
+ * 
+ * }
+ * 
+ * 
+ * 
+ * } }
+ */
