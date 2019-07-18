@@ -1,7 +1,9 @@
 package code_practice;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -40,7 +42,7 @@ public class Shorting_Icon extends Base {
 
 	
 	
-	@Test
+
 	public void demo()
 	{
 		Page p=new Page(driver);
@@ -52,8 +54,12 @@ public class Shorting_Icon extends Base {
 		{
 			String name=driver.findElements(By.xpath("//span[contains(@class,'sorting')]/parent::*")).get(i).getText();
 			System.out.println(" name"+ name);
+			
+			
+			
 			driver.findElements(By.xpath("//span[contains(@class,'sorting')]/parent::*")).get(i).click();
 			System.out.println("successfully clicked"+name);
+			
 		}
 		//Iterator it = p.Name().iterator(); // name is present
 	//	while (it.hasNext()) // next element is present or not
@@ -61,22 +67,124 @@ public class Shorting_Icon extends Base {
 		//	it.next();
 	}
 
+
+
+
+
+
+
+public void verify()
+{
+
+List<WebElement> Rows = driver.findElements(By.xpath("//tbody/tr"));
+
+System.out.println("No of Rows in the table" + Rows.size());
+
+for (int i = 1; i < Rows.size()-1; i++)
+{ 
+    //find the columns in specific row
+    List<WebElement> Columns = Rows.get(i).findElements(By.xpath("//td"));
+    System.out.println("No of Columns in the table" + Columns.size()  );
+
+    for (int j = 1; j <Columns.size()-1; j++ )
+    {
+        String text = Columns.get(j).getText();
+        System.out.println(text);
+
+        /* adjust as you needed.
+        if(identifyvalue.equalsIgnoreCase(text))
+        {
+            leavecount = leavecount+1;
+            System.out.println("Leavecounttilldate" + leavecount );
+        }
+        */
+    }
+} 
+}
+
+	
+	public void test1()
+	{
+List<WebElement> rows = driver.findElements(By.xpath("//tbody/tr"));
+WebElement icon=driver.findElement(By.xpath("//span[contains(@class,'sorting')]/parent::*"));
+if(icon.isDisplayed())
+{
+	for (WebElement tr : rows) 
+{
+   List<WebElement> columns = tr.findElements(By.tagName("td"));
+   for (WebElement td: columns) 
+   {
+      System.out.println(td.getText());
+   }
+}
+}
+}
+
+@Test
+public void test2()
+{
+
+List<WebElement> rows = driver.findElements(By.xpath("//tbody//tr"));
+List<ArrayList<String>> rowsData = new ArrayList<ArrayList<String>>();
+ArrayList<String> rowData = new ArrayList<String>();
+
+for(WebElement row:rows){
+    List<WebElement> rowElements = row.findElements(By.xpath(".//td"));
+
+    for(WebElement column:rowElements){
+        rowData.add(column.getText().toString());
+    }
+
+    rowsData.add(rowData);
+}
+System.out.println(rowData);
+
+
+}
+
+public void test3()
+{
+
+	List allHeadersOfTable2= driver.findElements(By.xpath("//table[@name='BookTable']/tbody/tr[1]/th"));
+	for(int k=0;k<=allHeadersOfTable2.size();k++)
+	{
+		if((allHeadersOfTable2.get(k).getText()).equalsIgnoreCase("price"))
+		{
+			System.out.println("Column index of Price column is: "+(k+1));
+		}
+					
+	}
+
 }
 
 
 
+}
+/*
+ * List allHeadersOfTable2= driver.findElements(By.xpath("//table[@name='BookTable']/tbody/tr[1]/th"));
+for(int k=0;k&lt;allHeadersOfTable2.size();k++)
+{
+	if(allHeadersOfTable2.get(k).getText().equalsIgnoreCase("price"))
+	{
+		System.out.println("Column index of Price column is: "+(k+1));
+	}
+				
+}
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 	public void test1()
 
-
-
-
-
-
-
-
-
-
-
-/*	public void test1()
 	{
 		for(int i=0;i<23;i++)
 		{
@@ -91,4 +199,11 @@ public class Shorting_Icon extends Base {
 		}
 	}
 }
+
+
+https://stackoverflow.com/questions/36263315/java-selenium-webdriver-get-cell-value-from-table
+https://www.guru99.com/handling-dynamic-selenium-webdriver.html
+http://www.software-testing-tutorials-automation.com/2014/05/how-to-extract-table-dataread-table.html
+
+
 */

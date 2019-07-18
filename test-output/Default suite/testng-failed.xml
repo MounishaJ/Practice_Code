@@ -5,7 +5,7 @@
     <classes>
       <class name="code_practice.Shorting_Icon">
         <methods>
-          <include name="demo"/>
+          <include name="verify"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- code_practice.Shorting_Icon -->
