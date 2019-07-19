@@ -142,20 +142,6 @@ System.out.println(rowData);
 
 }
 
-public void test3()
-{
-
-	List allHeadersOfTable2= driver.findElements(By.xpath("//table[@name='BookTable']/tbody/tr[1]/th"));
-	for(int k=0;k<=allHeadersOfTable2.size();k++)
-	{
-		if((allHeadersOfTable2.get(k).getText()).equalsIgnoreCase("price"))
-		{
-			System.out.println("Column index of Price column is: "+(k+1));
-		}
-					
-	}
-
-}
 
 
 
@@ -171,18 +157,6 @@ for(int k=0;k&lt;allHeadersOfTable2.size();k++)
 				
 }
  * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
  * 	public void test1()
 
 	{
@@ -197,9 +171,6 @@ for(int k=0;k&lt;allHeadersOfTable2.size();k++)
 				}
 			}
 		}
-	}
-}
-
 
 https://stackoverflow.com/questions/36263315/java-selenium-webdriver-get-cell-value-from-table
 https://www.guru99.com/handling-dynamic-selenium-webdriver.html
