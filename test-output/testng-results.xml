@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44839" started-at="2019-07-18T09:09:06Z" finished-at="2019-07-18T09:09:51Z">
+  <suite name="Default suite" duration-ms="71172" started-at="2019-07-22T12:39:40Z" finished-at="2019-07-22T12:40:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44839" started-at="2019-07-18T09:09:06Z" finished-at="2019-07-18T09:09:51Z">
+    <test name="Default test" duration-ms="71172" started-at="2019-07-22T12:39:40Z" finished-at="2019-07-22T12:40:51Z">
       <class name="code_practice.Shorting_Icon">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:code_practice.Shorting_Icon@5b12b668]" name="initialize" is-config="true" duration-ms="40478" started-at="2019-07-18T09:09:06Z" finished-at="2019-07-18T09:09:46Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:code_practice.Shorting_Icon@5b12b668]" name="initialize" is-config="true" duration-ms="65887" started-at="2019-07-22T12:39:40Z" finished-at="2019-07-22T12:40:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:code_practice.Shorting_Icon@5b12b668]" name="test2" duration-ms="4297" started-at="2019-07-18T09:09:46Z" finished-at="2019-07-18T09:09:51Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:code_practice.Shorting_Icon@5b12b668]" name="test2" duration-ms="5207" started-at="2019-07-22T12:40:46Z" finished-at="2019-07-22T12:40:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
