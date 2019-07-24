@@ -39,6 +39,16 @@ public class Shorting_Icon extends Base {
 
 	}
 }
+
+
+
+
+
+
+
+/*
+
+	
  /*
  * 
 	 /* List<WebElement> Rows = driver.findElements(By.xpath("//tbody/tr"));
@@ -55,7 +65,7 @@ public class Shorting_Icon extends Base {
 		  {
 			  String text =   Columns.get(j).getText(); 
 			  System.out.println(text);
-		  */
+		
 
 	@Test
 	public void test2() {
@@ -101,14 +111,10 @@ sum=sum+valueinteger;//103
 
 
 
-
-
-
-
-
-
-
-/*
+	
+	
+	
+	
 	String name;
 		int count=driver.findElements(By.xpath("//thead/tr/th")).size();
 		for(int i=1;i<count-1;i++)

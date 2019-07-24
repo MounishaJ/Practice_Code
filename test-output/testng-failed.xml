@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="code_practice.Shorting_Icon">
+      <class name="code_practice.Testsort">
         <methods>
-          <include name="test2"/>
           <include name="initialize"/>
+          <include name="sort"/>
         </methods>
-      </class> <!-- code_practice.Shorting_Icon -->
+      </class> <!-- code_practice.Testsort -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
