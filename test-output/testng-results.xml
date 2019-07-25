@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35517" started-at="2019-07-24T13:15:56Z" finished-at="2019-07-24T13:16:31Z">
+  <suite name="Default suite" duration-ms="62132" started-at="2019-07-24T13:28:13Z" finished-at="2019-07-24T13:29:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35517" started-at="2019-07-24T13:15:56Z" finished-at="2019-07-24T13:16:31Z">
+    <test name="Default test" duration-ms="62132" started-at="2019-07-24T13:28:13Z" finished-at="2019-07-24T13:29:15Z">
       <class name="code_practice.Testsort">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:code_practice.Testsort@5b12b668]" name="initialize" is-config="true" duration-ms="32126" started-at="2019-07-24T13:15:56Z" finished-at="2019-07-24T13:16:28Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:code_practice.Testsort@5b12b668]" name="initialize" is-config="true" duration-ms="58808" started-at="2019-07-24T13:28:13Z" finished-at="2019-07-24T13:29:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="sort()[pri:0, instance:code_practice.Testsort@5b12b668]" name="sort" duration-ms="3335" started-at="2019-07-24T13:16:28Z" finished-at="2019-07-24T13:16:31Z">
+        <test-method status="FAIL" signature="sort()[pri:0, instance:code_practice.Testsort@5b12b668]" name="sort" duration-ms="3269" started-at="2019-07-24T13:29:12Z" finished-at="2019-07-24T13:29:15Z">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index: 10, Size: 10]]>

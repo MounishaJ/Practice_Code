@@ -65,7 +65,7 @@ public void sort() throws InterruptedException
 			  int count=Columns.size();
 			  System.out.println("column countin row"+count );
 		  
-		  for (int k = 1; k <=j+1; k++ )
+		  for (int k = j; k <=j+1; k++ )
 		  {
 			  String text =   Columns.get(i).getText(); 
 			  System.out.println(text);
