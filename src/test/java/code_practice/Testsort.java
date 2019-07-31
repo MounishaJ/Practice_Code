@@ -33,7 +33,7 @@ public class Testsort extends Base{
 		log.info("sucessfully logged into the application");
 		Page p = new Page(driver);
 		p.customer_Tab().click();
-		p.truck_Tab().click();
+		//p.truck_Tab().click();
 
 	}
 
@@ -53,36 +53,48 @@ public void sort() throws InterruptedException
 	{
 		
 		driver.findElements(By.xpath("//thead/tr/th")).get(i).click();
-		//int index=i;
 		Thread.sleep(2000);
 				
 		List<WebElement> Rows = driver.findElements(By.xpath("//tbody/tr"));
 		System.out.println("rows"+Rows.size());
-		  for (int j = 1; j <=Rows.size(); j++) 
+		int size=Rows.size();
+		for (int j=1; j<=size; j++) 
 		  { //find the columns in specific row
 		  
-			  List<WebElement> Columns = Rows.get(j).findElements(By.xpath("//tbody/tr"+"["+ j +"]"+"//td"));
-			  int count=Columns.size();
-			  System.out.println("column countin row"+count );
-		  
-		  for (int k = j; k <=j+1; k++ )
-		  {
+			  List<WebElement> Columns = Rows.get(j).findElements(By.xpath("//tr"+"["+ j+"]"+"//td"));
 			  String text =   Columns.get(i).getText(); 
 			  System.out.println(text);
-		
+		  }}}}
 
+
+	public void doing()
+{
+	WebElement tbl = driver.findElement(By.xpath("//tbody"));
+
+	//check all row, identification with 'tr' tag
+	List<WebElement> rows = tbl.findElements(By.tagName("tr"));
+
+	for(int i=0; i<rows.size(); i++) {
+	    //check column each in row, identification with 'td' tag
+	    List<WebElement> cols = rows.get(i).findElements(By.tagName("td"));
+
+	for(int j=0; j<cols.size(); j++) {
+	 System.out.println(cols.get(j).getText());
 	}
-	}
+
 	
-	
+}}
 }
 
 
-	}
+
+//int count=Columns.size();
+//System.out.println("column countin row"+count );
+/* 
+for (int k =j; k <=j; k++ )
+{
+String text =   Columns.get(i).getText(); 
+System.out.println(text);
 
 
-
-}
-}
-
-
+}*/
