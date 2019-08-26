@@ -23,8 +23,7 @@ public class Page {
 	@FindBy(xpath="//tr[@class='odd']//td[2]")
 	WebElement searchingword;
 
-	@FindBy(xpath="//span[contains(text(),'Customers')]")
-	WebElement customertab;
+
 	
 	@FindBy(xpath="//span[contains(text(),'Trucks')]")
 	WebElement trucktab;
@@ -45,7 +44,8 @@ public class Page {
 	WebElement errormsg;
 	
 	
-	
+	@FindBy(xpath="//span[contains(text(),'Customers')]")
+	WebElement customertab;
 	public WebElement customer_Tab()
 	{
 		

@@ -1,6 +1,8 @@
 package code_practice;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -36,65 +38,33 @@ public class Testsort extends Base{
 		//p.truck_Tab().click();
 
 	}
-
-
-
-@Test
-public void sort() throws InterruptedException
-{
 	
-	int columncount=driver.findElements(By.xpath("//thead/tr/th")).size();
-	for(int i=0;i<columncount;i++)
+	@Test
+	public List<String> listitems() throws InterruptedException
 	{
-		
-	System.out.println("getattribute"+i+" "+driver.findElements(By.xpath("//thead/tr/th")).get(i).getAttribute("class"));
-	String name=driver.findElements(By.xpath("//thead/tr/th")).get(i).getAttribute("class");
-	if(name.endsWith("sorting"))
-	{
-		
-		driver.findElements(By.xpath("//thead/tr/th")).get(i).click();
-		Thread.sleep(2000);
-				
-		List<WebElement> Rows = driver.findElements(By.xpath("//tbody/tr"));
-		System.out.println("rows"+Rows.size());
-		int size=Rows.size();
-		for (int j=1; j<=size; j++) 
-		  { //find the columns in specific row
-		  
-			  List<WebElement> Columns = Rows.get(j).findElements(By.xpath("//tr"+"["+ j+"]"+"//td"));
-			  String text =   Columns.get(i).getText(); 
-			  System.out.println(text);
-		  }}}}
 
+	List<String> Actual = new ArrayList<String>();
+	while (true) {
+		String name = p.Arrow().getAttribute("class");
+		int count = p.Name().size();
+		for (int j = 0; j < count; j++) {
 
-	public void doing()
-{
-	WebElement tbl = driver.findElement(By.xpath("//tbody"));
+			Actual.add(p.Name().get(j).getText());
+			System.out.println(p.Name().get(j).getText());
+			Iterator it = p.Name().iterator(); // name is present
+			while (it.hasNext()) // next element is present or not
 
-	//check all row, identification with 'tr' tag
-	List<WebElement> rows = tbl.findElements(By.tagName("tr"));
-
-	for(int i=0; i<rows.size(); i++) {
-	    //check column each in row, identification with 'td' tag
-	    List<WebElement> cols = rows.get(i).findElements(By.tagName("td"));
-
-	for(int j=0; j<cols.size(); j++) {
-	 System.out.println(cols.get(j).getText());
+				it.next();
+		}
+		scrolldown();
+		if (!name.contains("disabled")) {
+			p.Arrow().click();
+			Thread.sleep(2000);
+			scrollup();
+		} else if (name.contains("disabled")) {
+			break;
+		}
 	}
-
-	
-}}
+	return Actual;
+	}
 }
-
-
-
-//int count=Columns.size();
-//System.out.println("column countin row"+count );
-/* 
-for (int k =j; k <=j; k++ )
-{
-String text =   Columns.get(i).getText(); 
-System.out.println(text);
-
-
-}*/
