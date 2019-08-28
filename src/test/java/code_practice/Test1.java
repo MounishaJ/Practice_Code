@@ -55,8 +55,10 @@ public class Test1 extends Base {
 		{
 			originaldesc=data(i);
 			
-			driver.findElements(By.xpath("//thead/tr/th")).get(i).click();
+			driver.findElement(By.xpath("//span[@class='paginate_button first icon-double_left']")).click();
+			driver.findElement(By.xpath("//a[@id='toTop']")).click();
 			Thread.sleep(2000);
+			driver.findElements(By.xpath("//thead/tr/th")).get(i).click();
 			while (true) {
 			Page p = new Page(driver);
 			String name1 = p.Arrow().getAttribute("class");			
