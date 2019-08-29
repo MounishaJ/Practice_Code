@@ -40,7 +40,7 @@ public class Test1 extends Base {
 	public void getlist() throws InterruptedException
 	{
 //created empty lists		
-		List<String> originaldesc=new ArrayList<String>();
+		List<String> Expected=new ArrayList<String>();
 		List<String> descending=new ArrayList<String>();
 //prints columns count		
 		int columncount=driver.findElements(By.xpath("//thead/tr/th")).size();
@@ -53,12 +53,14 @@ public class Test1 extends Base {
 //checks sorting option is present or not
 		if(name.endsWith("sorting"))
 		{
-			originaldesc=data(i);
+			Expected=data(i);
 			
 			driver.findElement(By.xpath("//span[@class='paginate_button first icon-double_left']")).click();
-			driver.findElement(By.xpath("//a[@id='toTop']")).click();
-			Thread.sleep(2000);
+					//driver.findElement(By.xpath("//a[@id='toTop']")).click();
+			scrollup();
+			Thread.sleep(3000);
 			driver.findElements(By.xpath("//thead/tr/th")).get(i).click();
+			
 			while (true) {
 			Page p = new Page(driver);
 			String name1 = p.Arrow().getAttribute("class");			
@@ -82,11 +84,11 @@ public class Test1 extends Base {
 			break;
 			}
 			}
-			 System.out.println("original list"+originaldesc); 
-			Collections.sort(originaldesc, Collections.reverseOrder());
-			System.out.println("List After descending order"+originaldesc);
+			 System.out.println("Expecetd list"+Expected); 
+			Collections.sort(Expected, Collections.reverseOrder());
+			System.out.println("List expected descending order"+Expected);
 			System.out.println("after sort button clicking get the descending order"+descending);
-			Assert.assertTrue(originaldesc.equals(descending));
+			Assert.assertTrue(Expected.equals(descending));
 			System.out.println("successfully checked descnding order sorting");
 						
 	}
